@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "VT323", monospace;
+  text-align: center;
+  font-size: 2em;
+}
+
+.player-item {
+  cursor: crosshair;
+}

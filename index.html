@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link
+  </head>
+  <body>
+    <main id="gamearea">
+      <h1>Rock, Paper, Scissors</h1>
+
+      <div id="player-section">
+        <h2>CHOOSE YOUR WEAPON</h2>
+        <div id="player-rock" class="player-item" data-item="rock">ROCK</div>
+        <div id="player-paper" class="player-item" data-item="paper">
+          PAPER
+        </div>
+        <div id="player-scissors" class="player-item" data-item="scissors">
+          SCISSORS
+        </div>
+      </div>
+
+      <h2>OPPONENT</h2>
+      <div id="opponent-section">
+        <div>???</div>
+      </div>
+      <div id="results-section">
+        <h2 id="h2r">RESULTS</h2>
+        <div>Total Games:<span class="results" id="total">0</span></div>
+        <div>Won: <span class="results" id="won">0</span></div>
+        <div>Draw: <span class="results" id="draw">0</span></div>
+        <div>Lost: <span class="results" id="lost">0</span></div>
+        <a href="index.html"><h2>NEW GAME</h2></a>
+      </div>
+    </main>
+    <script src="game.js" type="text/javascript"></script>
+  </body>
+</html>
