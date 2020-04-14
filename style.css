@@ -5,6 +5,8 @@ main {
   font-family: "VT323", monospace;
   text-align: center;
   font-size: 2em;
+  color: white;
+  background-color: black;
 }
 
 .player-item {
